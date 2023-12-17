@@ -12,10 +12,10 @@ import twitter4j.conf.ConfigurationBuilder;
 public class TwitterFeedApp {
 	public static void main(String[] args) {
         // Twitter API credentials
-        String consumerKey = "ljewkNEjUU6r9QzxDtQLz5Gf2";
-        String consumerSecret = "ZES7q34K1lvcmxM9LXiud7jpWzGkuYK1oR1GBqcGgjIAE75ohT";
-        String accessToken = "3245655800-ielBtm2pgfWsHHAV65wl1eWpbN9oCDBLK3qcUYC";
-        String accessTokenSecret = "5ob2KgmsBe14ERkqCHKziFScR2vluQbw6bBf2HInw2YVw";
+        String consumerKey = "CONSUMER_KEY";
+        String consumerSecret = "CONSUMER_SECRET";
+        String accessToken = "ACCESS_TOKEN";
+        String accessTokenSecret = "ACCESS_TOKEN_SECRET";
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
