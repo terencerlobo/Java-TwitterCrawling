@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 public class TwitterApiV2App {
 	
-	private static final String BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAABSdlAEAAAAAt2sXaKqePkvQ%2BnhtZvOEA3d%2FSPA%3DilR5MT9ji9qTt6JqGw1Fbh7xNWaTp7W8QPE0RVTCwB6zSBXcXx";
+	private static final String BEARER_TOKEN = "BEARER_TOKEN";
 
     public static void main(String[] args) {
         String query = "java"; 
